@@ -35,7 +35,7 @@ const port = process.env.PORT || 3001
 // connect to database
 mongoose.Promise = global.Promise
 mongoose.connect('mongodb://localhost/fs-todo-app', {
-    useMongoClient: true,
+
 })
 
 // add source map support 
